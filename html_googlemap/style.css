@@ -1,0 +1,290 @@
+@font-face {
+    font-family: "GentleMonster"; 
+    src: url("//db.onlinewebfonts.com/t/04b98e0c477863adcdaae7d4d98c063a.eot"); 
+    src: url("//db.onlinewebfonts.com/t/04b98e0c477863adcdaae7d4d98c063a.eot?#iefix") format("embedded-opentype"),
+     url("//db.onlinewebfonts.com/t/04b98e0c477863adcdaae7d4d98c063a.woff2") format("woff2"), 
+     url("//db.onlinewebfonts.com/t/04b98e0c477863adcdaae7d4d98c063a.woff") format("woff"), 
+     url("//db.onlinewebfonts.com/t/04b98e0c477863adcdaae7d4d98c063a.ttf") format("truetype"), 
+     url("//db.onlinewebfonts.com/t/04b98e0c477863adcdaae7d4d98c063a.svg#GentleMonster") format("svg"); 
+    }
+    @font-face {
+        font-family: "GentleMonster v2-test"; 
+        src: url("//db.onlinewebfonts.com/t/2a0734ffc2345347561503b2bf431350.eot"); 
+        src: url("//db.onlinewebfonts.com/t/2a0734ffc2345347561503b2bf431350.eot?#iefix") format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/2a0734ffc2345347561503b2bf431350.woff2") format("woff2"),
+        url("//db.onlinewebfonts.com/t/2a0734ffc2345347561503b2bf431350.woff") format("woff"), 
+        url("//db.onlinewebfonts.com/t/2a0734ffc2345347561503b2bf431350.ttf") format("truetype"), 
+        url("//db.onlinewebfonts.com/t/2a0734ffc2345347561503b2bf431350.svg#GentleMonster v2-test") format("svg"); }
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+header{
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    display: flex;
+    align-items: center;
+    background-color: #212529;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+header a {
+    margin: 0;
+    padding: 0;
+    float: left;
+    text-decoration: none;
+  }
+header div {
+    display: flex; 
+    align-items: center; 
+}
+
+body{
+    margin: 0;
+    padding: 0px;
+    
+}
+
+
+nav{
+    margin-left: 15%;
+    position: fixed;
+    }
+
+#logo{
+    font-family: "GentleMonster"; 
+    font-size: 30px;
+    color: white;
+    
+    
+}
+
+#home{
+    font-family: 'GmarketSansMedium';
+    color: white;
+    font-size: 20px;
+    margin-left: 120px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.wherestore{
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#shop{
+    font-family: 'GmarketSansMedium';
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+#location{
+    font-family: 'GmarketSansMedium';
+    color: white;
+    font-size: 20px;
+    float: right;
+    margin-left: auto;
+    margin-right: 15%;
+    
+}
+
+main{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 150px;
+}
+
+.store{
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    position:absolute;
+}
+
+#city{
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+iframe{
+    margin-top: 30px;
+    width: 100%;
+    height: 600px;
+}
+
+.text{
+    width: 25%;
+    height: 450px;
+    text-align: center;
+    border: 2px solid #D3D3D3;
+    align-items: center;
+    
+}
+.storeName{
+    font-size: 20px;
+    font-family: "GentleMonster v2-test";
+    font-weight: bold;
+    margin-top: 150px;
+}
+.textbox{
+    width: 100%;
+    height: auto;
+    
+}
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.storeExp{
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+
+#map1{
+    width: 40%;
+    height: 450px;
+    margin-left: auto;
+    float: right;
+    border: 2px solid #D3D3D3;
+    
+}
+#map2{
+    width: 40%;
+    height: 450px;
+    margin-left: auto;
+    float: right;
+    border: 2px solid #D3D3D3;
+    
+}
+#map3{
+    width: 40%;
+    height: 450px;
+    margin-left: auto;
+    float: right;
+    border: 2px solid #D3D3D3;
+    
+}
+
+#map4{
+    width: 40%;
+    height: 450px;
+    margin-left: auto;
+    float: right;
+    border: 2px solid #D3D3D3;
+    
+}
+#map5{
+    width: 40%;
+    height: 450px;
+    margin-left: auto;
+    float: right;
+    border: 2px solid #D3D3D3;
+    
+}
+
+#map6{
+    width: 40%;
+    height: 450px;
+    margin-left: auto;
+    float: right;
+    border: 2px solid #D3D3D3;
+    
+}
+.imgfill {
+    width: 30%;
+    height: 450px;
+    border: 2px solid #D3D3D3;
+}
+
+footer{
+    margin-top: 200px;
+    width: 100%;
+    background-color: #212529;
+    height: 200px;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    position: relative;
+    font-weight: bold;
+}
+
+
+.custom-label {
+    white-space: nowrap;
+    position: relative;
+    left: 60px; 
+    top: 40px; 
+}
+
+#toggleMenu {
+    display: none;
+}
+
+#toggleMenu:checked ~ .menuContent {
+    display: block; 
+  }
+
+.menuContent {
+    position: fixed;
+    top: 100px;
+    left: 0; 
+    width: 100%; 
+    background-color: rgba(33, 37, 41, 0.8);
+    padding-top: 20px;
+    display: none;
+    text-align: center;
+    font-family: 'GmarketSansMedium';
+    color: white;
+    height: 120px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+}
+  
+.menuContent ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+  
+.menuContent li {
+    margin-bottom: 10px; 
+}
+
+#shop {
+    cursor: pointer;
+    position: relative; 
+    z-index: 2; 
+}
+
+#shop::after {
+    content: "▼";
+    margin-left: 5px;
+}
+
+#toggleMenu:checked ~ #shop::after {
+    content: "▲";
+}
+
+
