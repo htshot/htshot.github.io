@@ -57,7 +57,7 @@
 
 ## 웹사이트 결과물
 
-- [웹사이트 주소: https://github.com/mw-computer/2023-Web-F-htshot.git](https://github.com/mw-computer/2023-Web-F-htshot.git)
+- [웹사이트 주소: https://github.com/mw-computer/htshot.github.io](https://github.com/mw-computer/htshot.github.io)
 
 ### 사용한 지킬 테마
 - HTML 테마 사용(css 소량 수정)
